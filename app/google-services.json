@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "742580357076",
+    "firebase_url": "https://mybookapp-f1c6d-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "mybookapp-f1c6d",
+    "storage_bucket": "mybookapp-f1c6d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:742580357076:android:9c562e8fd5a523715e7841",
+        "android_client_info": {
+          "package_name": "com.poly.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "742580357076-lau849hc42islph6onqpp39hq914daro.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtBDGlssE5WIIw44TDPOckyptdYzbipLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "742580357076-lau849hc42islph6onqpp39hq914daro.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:742580357076:android:404e757e0b8e58b25e7841",
+        "android_client_info": {
+          "package_name": "com.poly.mybookapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "742580357076-lau849hc42islph6onqpp39hq914daro.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtBDGlssE5WIIw44TDPOckyptdYzbipLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "742580357076-lau849hc42islph6onqpp39hq914daro.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

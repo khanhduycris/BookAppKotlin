@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_bgr"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/img_bhhsoft" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/custom_register"
+        android:orientation="vertical"
+
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/nameRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_edt"
+            android:drawableStart="@drawable/ic_baseline_person_24"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColor="@color/black" />
+        <EditText
+            android:id="@+id/addressRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_edt"
+            android:drawableStart="@drawable/ic_baseline_home_work_24"
+            android:hint="Address"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/phoneRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_edt"
+            android:drawableStart="@drawable/ic_baseline_phone_24"
+            android:hint="Phone"
+            android:inputType="phone"
+            android:padding="10dp"
+            android:textColor="@color/black" />
+
+<!--        <EditText-->
+<!--            android:id="@+id/addressRegister"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:background="@drawable/custom_edt"-->
+<!--            android:drawableStart="@drawable/ic_baseline_home_work_24"-->
+<!--            android:hint="Address"-->
+<!--            android:inputType="phone"-->
+<!--            android:padding="10dp"-->
+<!--            android:textColor="@color/black" />-->
+
+        <EditText
+            android:id="@+id/emailRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_edt"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:drawableStart="@drawable/ic_baseline_email_24"
+            android:padding="10dp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/passWordRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/custom_edt"
+            android:hint="Password"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:drawableEnd="@drawable/ic_baseline_remove_red_eye_24"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/comfirmPassWordRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/custom_edt"
+            android:hint="Comfirm PassWord"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:drawableEnd="@drawable/ic_baseline_remove_red_eye_24"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="@color/black" />
+
+        <ProgressBar
+            android:id="@+id/registerProgessbar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/custom_btn"
+            android:padding="12dp"
+            android:text="Register"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tvOfLoginWith"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:text="Of login with"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+    </LinearLayout>
+</RelativeLayout>
